@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/description/
 
-package Java.Easy;
-
 class Solution {
     private boolean checkIfNum(String s) {
         for(int i=0; i<s.length(); i++) {
