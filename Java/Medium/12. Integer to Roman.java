@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 // https://leetcode.com/problems/integer-to-roman/description/
 
 class Solution {
@@ -20,16 +18,15 @@ class Solution {
         dict.put(1, "I");
 
         Integer[] keys = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-        String result="";
-        while(num>0) {
-            int i=0;
-            while (keys[i]>num) {
+        StringBuilder result = new StringBuilder();
+        while(num > 0) {
+            int i = 0;
+            while (keys[i] > num) {
                 i++;
             }
-            result+=dict.get(keys[i]);
-            num-=keys[i];
+            result.append(dict.get(keys[i]));
+            num -= keys[i];
         }
-        return result;
+        return result.toString();
     }
 }
->>>>>>> Stashed changes

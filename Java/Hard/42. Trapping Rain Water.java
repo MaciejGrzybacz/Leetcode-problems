@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 // https://leetcode.com/problems/trapping-rain-water/description/
 
 class Solution {
@@ -28,4 +26,3 @@ class Solution {
         return totalWater;
     }
 }
->>>>>>> Stashed changes
