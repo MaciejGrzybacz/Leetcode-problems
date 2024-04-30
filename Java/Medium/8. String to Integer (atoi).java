@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/string-to-integer-atoi/description/
 
-package Java.Medium;
-
 class Solution {
     public int myAtoi(String s) {
         if (s == null || s.isEmpty()) {
