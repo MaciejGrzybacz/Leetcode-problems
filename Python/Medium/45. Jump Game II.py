@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/jump-game-ii/description/
 
-# could be solved more efficiently similar to problem 55 but I wanted to practise memoization
+# could be solved more efficiently in the way similar to problem 55 but I wanted to practise memoization
 class Solution:
     def solve(self, nums, index, memo):
         if index in memo:
